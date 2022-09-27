@@ -1,0 +1,16 @@
+domain: my.domain
+layout:
+- go.kubebuilder.io/v3
+projectName: operator
+repo: github.com/gitamit544/k8s_operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: my.domain
+  group: operator
+  kind: Student
+  path: github.com/gitamit544/k8s_operator/api/v1
+  version: v1
+version: "3"

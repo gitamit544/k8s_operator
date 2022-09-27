@@ -1,0 +1,9 @@
+apiVersion: operator.my.domain/v1
+kind: Student
+metadata:
+  labels:
+  name: student-sample4
+spec:
+  # TODO(user): Add fields here
+  name: "amit4"
+  marks: 95
